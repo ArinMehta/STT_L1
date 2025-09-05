@@ -34,8 +34,8 @@ def swap(a,b):
 
 FIRST = 1
 SECOND =2
-print("Before Swapping:", first, second)
+print("Before Swapping:", FIRST, SECOND)
 FIRST, SECOND = swap(FIRST, SECOND)
-print("After Swapping:", first, second)
+print("After Swapping:", FIRST, SECOND)
 
 #Is this a comment?
