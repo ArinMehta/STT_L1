@@ -1,9 +1,9 @@
 """Main module for practicing pylint fixes."""
 
-x=10
-y=20
+X = 10
+Y = 20
 
-for i in range(x,y):
+for i in range(X,Y):
     print("Count:", i)
 
 def multiply(a,b):
@@ -16,13 +16,13 @@ def add(a,b):
     result=a+b
     return result
 
-answer = multiply(x,y)
-print("Answer is:", answer)
+ANSWER = multiply(X,Y)
+print("Answer is:", ANSWER)
 
-answer2 = add(x,y)
-print("Addition is: ", answer2)
+ANSWER2 = add(X,Y)
+print("Addition is: ", ANSWER2)
 
-if answer==answer2:
+if ANSWER==ANSWER2:
     print("True")
 
 else:
@@ -32,10 +32,10 @@ def swap(a,b):
     """ Swap two numbers."""
     return b,a
 
-first = 1
-second =2
+FIRST = 1
+SECOND =2
 print("Before Swapping:", first, second)
-first, second = swap(first, second)
+FIRST, SECOND = swap(FIRST, SECOND)
 print("After Swapping:", first, second)
 
-'''  Is this a comment? '''
+#Is this a comment?
